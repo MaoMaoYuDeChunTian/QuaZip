@@ -9,6 +9,7 @@
 #ifndef UI_SOURCEMAKER_H
 #define UI_SOURCEMAKER_H
 
+#include <CustomTextEdit.h>
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
@@ -45,6 +46,7 @@ public:
     QLineEdit *lineEdit_unpress;
     QPushButton *pushButton_UnPress;
     QPushButton *pushButton_MulitPress;
+    CustomTextEdit *textEdit;
     QSpacerItem *verticalSpacer;
     QLabel *label_status;
 
@@ -52,7 +54,7 @@ public:
     {
         if (SourceMakerClass->objectName().isEmpty())
             SourceMakerClass->setObjectName(QStringLiteral("SourceMakerClass"));
-        SourceMakerClass->resize(499, 118);
+        SourceMakerClass->resize(541, 219);
         QIcon icon;
         icon.addFile(QStringLiteral(":/SourceMaker/Resources/Region_Icon.png"), QSize(), QIcon::Normal, QIcon::Off);
         SourceMakerClass->setWindowIcon(icon);
@@ -162,6 +164,11 @@ public:
 
 
         verticalLayout->addLayout(gridLayout);
+
+        textEdit = new CustomTextEdit(SourceMakerClass);
+        textEdit->setObjectName(QStringLiteral("textEdit"));
+
+        verticalLayout->addWidget(textEdit);
 
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 

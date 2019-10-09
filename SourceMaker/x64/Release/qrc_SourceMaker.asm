@@ -3743,14 +3743,14 @@ CONST	SEGMENT
 CONST	ENDS
 PUBLIC	?qInitResources_SourceMaker@@YAHXZ		; qInitResources_SourceMaker
 PUBLIC	?qCleanupResources_SourceMaker@@YAHXZ		; qCleanupResources_SourceMaker
-PUBLIC	?dummy@?A0x27e61960@@3Uinitializer@1@A		; `anonymous namespace'::dummy
+PUBLIC	?dummy@?A0x345fd0a2@@3Uinitializer@1@A		; `anonymous namespace'::dummy
 EXTRN	atexit:PROC
 EXTRN	__std_terminate:PROC
 EXTRN	?qRegisterResourceData@@YA_NHPEBE00@Z:PROC	; qRegisterResourceData
 EXTRN	?qUnregisterResourceData@@YA_NHPEBE00@Z:PROC	; qUnregisterResourceData
 EXTRN	__CxxFrameHandler3:PROC
 _BSS	SEGMENT
-?dummy@?A0x27e61960@@3Uinitializer@1@A DB 01H DUP (?)	; `anonymous namespace'::dummy
+?dummy@?A0x345fd0a2@@3Uinitializer@1@A DB 01H DUP (?)	; `anonymous namespace'::dummy
 _BSS	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
@@ -3766,98 +3766,98 @@ $pdata$?qCleanupResources_SourceMaker@@YAHXZ DD imagerel $LN4
 pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
-$pdata$??0initializer@?A0x27e61960@@QEAA@XZ DD imagerel ??0initializer@?A0x27e61960@@QEAA@XZ
-	DD	imagerel ??0initializer@?A0x27e61960@@QEAA@XZ+49
-	DD	imagerel $unwind$??0initializer@?A0x27e61960@@QEAA@XZ
+$pdata$??0initializer@?A0x345fd0a2@@QEAA@XZ DD imagerel ??0initializer@?A0x345fd0a2@@QEAA@XZ
+	DD	imagerel ??0initializer@?A0x345fd0a2@@QEAA@XZ+49
+	DD	imagerel $unwind$??0initializer@?A0x345fd0a2@@QEAA@XZ
 pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
-$pdata$??1initializer@?A0x27e61960@@QEAA@XZ DD imagerel ??1initializer@?A0x27e61960@@QEAA@XZ
-	DD	imagerel ??1initializer@?A0x27e61960@@QEAA@XZ+50
-	DD	imagerel $unwind$??1initializer@?A0x27e61960@@QEAA@XZ
+$pdata$??1initializer@?A0x345fd0a2@@QEAA@XZ DD imagerel ??1initializer@?A0x345fd0a2@@QEAA@XZ
+	DD	imagerel ??1initializer@?A0x345fd0a2@@QEAA@XZ+50
+	DD	imagerel $unwind$??1initializer@?A0x345fd0a2@@QEAA@XZ
 pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
-$pdata$??__Edummy@?A0x27e61960@@YAXXZ DD imagerel ??__Edummy@?A0x27e61960@@YAXXZ
-	DD	imagerel ??__Edummy@?A0x27e61960@@YAXXZ+51
-	DD	imagerel $unwind$??__Edummy@?A0x27e61960@@YAXXZ
+$pdata$??__Edummy@?A0x345fd0a2@@YAXXZ DD imagerel ??__Edummy@?A0x345fd0a2@@YAXXZ
+	DD	imagerel ??__Edummy@?A0x345fd0a2@@YAXXZ+51
+	DD	imagerel $unwind$??__Edummy@?A0x345fd0a2@@YAXXZ
 pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
-$pdata$??__Fdummy@?A0x27e61960@@YAXXZ DD imagerel ??__Fdummy@?A0x27e61960@@YAXXZ
-	DD	imagerel ??__Fdummy@?A0x27e61960@@YAXXZ+50
-	DD	imagerel $unwind$??__Fdummy@?A0x27e61960@@YAXXZ
+$pdata$??__Fdummy@?A0x345fd0a2@@YAXXZ DD imagerel ??__Fdummy@?A0x345fd0a2@@YAXXZ
+	DD	imagerel ??__Fdummy@?A0x345fd0a2@@YAXXZ+50
+	DD	imagerel $unwind$??__Fdummy@?A0x345fd0a2@@YAXXZ
 pdata	ENDS
 CRT$XCU	SEGMENT
-?dummy$initializer$@?A0x27e61960@@3P6AXXZEA DQ FLAT:??__Edummy@?A0x27e61960@@YAXXZ ; `anonymous namespace'::dummy$initializer$
+?dummy$initializer$@?A0x345fd0a2@@3P6AXXZEA DQ FLAT:??__Edummy@?A0x345fd0a2@@YAXXZ ; `anonymous namespace'::dummy$initializer$
 CRT$XCU	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
-$ip2state$??__Fdummy@?A0x27e61960@@YAXXZ DD imagerel ??__Fdummy@?A0x27e61960@@YAXXZ
+$ip2state$??__Fdummy@?A0x345fd0a2@@YAXXZ DD imagerel ??__Fdummy@?A0x345fd0a2@@YAXXZ
 	DD	0ffffffffH
-	DD	imagerel ??__Fdummy@?A0x27e61960@@YAXXZ+13
+	DD	imagerel ??__Fdummy@?A0x345fd0a2@@YAXXZ+13
 	DD	00H
-	DD	imagerel ??__Fdummy@?A0x27e61960@@YAXXZ+45
+	DD	imagerel ??__Fdummy@?A0x345fd0a2@@YAXXZ+45
 	DD	0ffffffffH
 xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
-$stateUnwindMap$??__Fdummy@?A0x27e61960@@YAXXZ DD 0ffffffffH
+$stateUnwindMap$??__Fdummy@?A0x345fd0a2@@YAXXZ DD 0ffffffffH
 	DD	imagerel __std_terminate
 xdata	ENDS
 ;	COMDAT CONST
 CONST	SEGMENT
-$cppxdata$??__Fdummy@?A0x27e61960@@YAXXZ DD 019930522H
+$cppxdata$??__Fdummy@?A0x345fd0a2@@YAXXZ DD 019930522H
 	DD	01H
-	DD	imagerel $stateUnwindMap$??__Fdummy@?A0x27e61960@@YAXXZ
+	DD	imagerel $stateUnwindMap$??__Fdummy@?A0x345fd0a2@@YAXXZ
 	DD	00H
 	DD	00H
 	DD	03H
-	DD	imagerel $ip2state$??__Fdummy@?A0x27e61960@@YAXXZ
+	DD	imagerel $ip2state$??__Fdummy@?A0x345fd0a2@@YAXXZ
 	DD	020H
 	DD	00H
 	DD	01H
 CONST	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
-$unwind$??__Fdummy@?A0x27e61960@@YAXXZ DD 010d11H
+$unwind$??__Fdummy@?A0x345fd0a2@@YAXXZ DD 010d11H
 	DD	06204H
 	DD	imagerel __CxxFrameHandler3
-	DD	imagerel $cppxdata$??__Fdummy@?A0x27e61960@@YAXXZ
+	DD	imagerel $cppxdata$??__Fdummy@?A0x345fd0a2@@YAXXZ
 xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
-$unwind$??__Edummy@?A0x27e61960@@YAXXZ DD 010401H
+$unwind$??__Edummy@?A0x345fd0a2@@YAXXZ DD 010401H
 	DD	04204H
 xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
-$ip2state$??1initializer@?A0x27e61960@@QEAA@XZ DD imagerel ??1initializer@?A0x27e61960@@QEAA@XZ
+$ip2state$??1initializer@?A0x345fd0a2@@QEAA@XZ DD imagerel ??1initializer@?A0x345fd0a2@@QEAA@XZ
 	DD	0ffffffffH
 xdata	ENDS
 ;	COMDAT CONST
 CONST	SEGMENT
-$cppxdata$??1initializer@?A0x27e61960@@QEAA@XZ DD 019930522H
+$cppxdata$??1initializer@?A0x345fd0a2@@QEAA@XZ DD 019930522H
 	DD	00H
 	DD	00H
 	DD	00H
 	DD	00H
 	DD	01H
-	DD	imagerel $ip2state$??1initializer@?A0x27e61960@@QEAA@XZ
+	DD	imagerel $ip2state$??1initializer@?A0x345fd0a2@@QEAA@XZ
 	DD	020H
 	DD	00H
 	DD	05H
 CONST	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
-$unwind$??1initializer@?A0x27e61960@@QEAA@XZ DD 010d19H
+$unwind$??1initializer@?A0x345fd0a2@@QEAA@XZ DD 010d19H
 	DD	06204H
 	DD	imagerel __CxxFrameHandler3
-	DD	imagerel $cppxdata$??1initializer@?A0x27e61960@@QEAA@XZ
+	DD	imagerel $cppxdata$??1initializer@?A0x345fd0a2@@QEAA@XZ
 xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
-$unwind$??0initializer@?A0x27e61960@@QEAA@XZ DD 020601H
+$unwind$??0initializer@?A0x345fd0a2@@QEAA@XZ DD 020601H
 	DD	030023206H
 xdata	ENDS
 ;	COMDAT xdata
@@ -3871,10 +3871,10 @@ $unwind$?qInitResources_SourceMaker@@YAHXZ DD 010401H
 	DD	04204H
 xdata	ENDS
 ; Function compile flags: /Ogtpy
-;	COMDAT ??__Fdummy@?A0x27e61960@@YAXXZ
+;	COMDAT ??__Fdummy@?A0x345fd0a2@@YAXXZ
 text$yd	SEGMENT
 $T1 = 32
-??__Fdummy@?A0x27e61960@@YAXXZ PROC			; `anonymous namespace'::`dynamic atexit destructor for 'dummy'', COMDAT
+??__Fdummy@?A0x345fd0a2@@YAXXZ PROC			; `anonymous namespace'::`dynamic atexit destructor for 'dummy'', COMDAT
 	sub	rsp, 56					; 00000038H
 	mov	QWORD PTR $T1[rsp], -2
 	lea	r9, OFFSET FLAT:?qt_resource_data@@3QBEB
@@ -3885,13 +3885,13 @@ $T1 = 32
 	npad	1
 	add	rsp, 56					; 00000038H
 	ret	0
-??__Fdummy@?A0x27e61960@@YAXXZ ENDP			; `anonymous namespace'::`dynamic atexit destructor for 'dummy''
+??__Fdummy@?A0x345fd0a2@@YAXXZ ENDP			; `anonymous namespace'::`dynamic atexit destructor for 'dummy''
 text$yd	ENDS
 ; Function compile flags: /Ogtpy
-;	COMDAT ??__Edummy@?A0x27e61960@@YAXXZ
+;	COMDAT ??__Edummy@?A0x345fd0a2@@YAXXZ
 text$di	SEGMENT
-??__Edummy@?A0x27e61960@@YAXXZ PROC			; `anonymous namespace'::`dynamic initializer for 'dummy'', COMDAT
-; File e:\zhaotest\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
+??__Edummy@?A0x345fd0a2@@YAXXZ PROC			; `anonymous namespace'::`dynamic initializer for 'dummy'', COMDAT
+; File e:\mygit\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
 ; Line 317
 	sub	rsp, 40					; 00000028H
 	lea	r9, OFFSET FLAT:?qt_resource_data@@3QBEB
@@ -3899,18 +3899,18 @@ text$di	SEGMENT
 	lea	r8, OFFSET FLAT:?qt_resource_name@@3QBEB
 	lea	rdx, OFFSET FLAT:?qt_resource_struct@@3QBEB
 	call	?qRegisterResourceData@@YA_NHPEBE00@Z	; qRegisterResourceData
-	lea	rcx, OFFSET FLAT:??__Fdummy@?A0x27e61960@@YAXXZ ; `anonymous namespace'::`dynamic atexit destructor for 'dummy''
+	lea	rcx, OFFSET FLAT:??__Fdummy@?A0x345fd0a2@@YAXXZ ; `anonymous namespace'::`dynamic atexit destructor for 'dummy''
 	add	rsp, 40					; 00000028H
 	jmp	atexit
-??__Edummy@?A0x27e61960@@YAXXZ ENDP			; `anonymous namespace'::`dynamic initializer for 'dummy''
+??__Edummy@?A0x345fd0a2@@YAXXZ ENDP			; `anonymous namespace'::`dynamic initializer for 'dummy''
 text$di	ENDS
 ; Function compile flags: /Ogtpy
-;	COMDAT ??1initializer@?A0x27e61960@@QEAA@XZ
+;	COMDAT ??1initializer@?A0x345fd0a2@@QEAA@XZ
 _TEXT	SEGMENT
 $T1 = 32
 this$ = 64
-??1initializer@?A0x27e61960@@QEAA@XZ PROC		; `anonymous namespace'::initializer::~initializer, COMDAT
-; File e:\zhaotest\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
+??1initializer@?A0x345fd0a2@@QEAA@XZ PROC		; `anonymous namespace'::initializer::~initializer, COMDAT
+; File e:\mygit\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
 ; Line 316
 	sub	rsp, 56					; 00000038H
 	mov	QWORD PTR $T1[rsp], -2
@@ -3922,14 +3922,14 @@ this$ = 64
 	npad	1
 	add	rsp, 56					; 00000038H
 	ret	0
-??1initializer@?A0x27e61960@@QEAA@XZ ENDP		; `anonymous namespace'::initializer::~initializer
+??1initializer@?A0x345fd0a2@@QEAA@XZ ENDP		; `anonymous namespace'::initializer::~initializer
 _TEXT	ENDS
 ; Function compile flags: /Ogtpy
-;	COMDAT ??0initializer@?A0x27e61960@@QEAA@XZ
+;	COMDAT ??0initializer@?A0x345fd0a2@@QEAA@XZ
 _TEXT	SEGMENT
 this$ = 48
-??0initializer@?A0x27e61960@@QEAA@XZ PROC		; `anonymous namespace'::initializer::initializer, COMDAT
-; File e:\zhaotest\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
+??0initializer@?A0x345fd0a2@@QEAA@XZ PROC		; `anonymous namespace'::initializer::initializer, COMDAT
+; File e:\mygit\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
 ; Line 315
 	push	rbx
 	sub	rsp, 32					; 00000020H
@@ -3943,13 +3943,13 @@ this$ = 48
 	add	rsp, 32					; 00000020H
 	pop	rbx
 	ret	0
-??0initializer@?A0x27e61960@@QEAA@XZ ENDP		; `anonymous namespace'::initializer::initializer
+??0initializer@?A0x345fd0a2@@QEAA@XZ ENDP		; `anonymous namespace'::initializer::initializer
 _TEXT	ENDS
 ; Function compile flags: /Ogtpy
 ;	COMDAT ?qCleanupResources_SourceMaker@@YAHXZ
 _TEXT	SEGMENT
 ?qCleanupResources_SourceMaker@@YAHXZ PROC		; qCleanupResources_SourceMaker, COMDAT
-; File e:\zhaotest\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
+; File e:\mygit\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
 ; Line 307
 $LN4:
 	sub	rsp, 40					; 00000028H
@@ -3970,7 +3970,7 @@ _TEXT	ENDS
 ;	COMDAT ?qInitResources_SourceMaker@@YAHXZ
 _TEXT	SEGMENT
 ?qInitResources_SourceMaker@@YAHXZ PROC			; qInitResources_SourceMaker, COMDAT
-; File e:\zhaotest\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
+; File e:\mygit\quazipprj\sourcemaker\generatedfiles\qrc_sourcemaker.cpp
 ; Line 299
 $LN4:
 	sub	rsp, 40					; 00000028H

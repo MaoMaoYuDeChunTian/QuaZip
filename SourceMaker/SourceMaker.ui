@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>499</width>
-    <height>118</height>
+    <width>541</width>
+    <height>219</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -216,6 +216,9 @@
     </layout>
    </item>
    <item>
+    <widget class="CustomTextEdit" name="textEdit"/>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -252,6 +255,13 @@ font: 11pt &quot;Adobe 黑体 Std R&quot;;</string>
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CustomTextEdit</class>
+   <extends>QTextEdit</extends>
+   <header location="global">CustomTextEdit.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="SourceMaker.qrc"/>
  </resources>

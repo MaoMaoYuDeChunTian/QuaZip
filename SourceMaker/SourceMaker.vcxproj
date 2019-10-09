@@ -113,6 +113,7 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CustomTextEdit.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SourceMaker.cpp" />
   </ItemGroup>
@@ -126,6 +127,10 @@
     <QtRcc Include="SourceMaker.qrc" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="CustomTextEdit.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(ProjectDIr)..\thirdPart\include;D:\Software\Visual Leak Detector\include</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(ProjectDIr)..\thirdPart\include;D:\Software\Visual Leak Detector\include</IncludePath>
+    </QtMoc>
     <ClInclude Include="GeneratedFiles\ui_SourceMaker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

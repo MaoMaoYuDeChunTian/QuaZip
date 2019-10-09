@@ -17,6 +17,7 @@ void SourceMaker::InitialConnect()
 	connect(ui.pushButton_Press, &QPushButton::clicked, this, &SourceMaker::onPressed);
 	connect(ui.pushButton_MulitPress, &QPushButton::clicked, this, &SourceMaker::onMulPressed);
 	connect(ui.pushButton_UnPress, &QPushButton::clicked, this, &SourceMaker::onUnPressed);
+	connect(ui.comboBox_CodeSytle, &QComboBox::currentTextChanged, this, &SourceMaker::onCodeChanged);
 }
 
 void SourceMaker::onSavePathChanged()
@@ -89,4 +90,9 @@ void SourceMaker::onUnPressed()
 		ui.label_status->setText(tr("解压缩成功!"));
 	else
 		ui.label_status->setText(tr("解压缩失败!"));
+}
+
+void SourceMaker::onCodeChanged()
+{
+	ui.textEdit->m_codeName = ui.comboBox_CodeSytle->currentText().trimmed();
 }

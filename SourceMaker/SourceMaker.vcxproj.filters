@@ -36,9 +36,15 @@
     <ClCompile Include="SourceMaker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CustomTextEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="SourceMaker.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomTextEdit.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
