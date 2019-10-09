@@ -1,0 +1,36 @@
+﻿  JlCompress.cpp
+  qioapi.cpp
+  quaadler32.cpp
+  quacrc32.cpp
+  quagzipfile.cpp
+  quaziodevice.cpp
+  quazip.cpp
+  quazipdir.cpp
+  quazipfile.cpp
+  quazipfileinfo.cpp
+  quazipnewinfo.cpp
+  moc_JlCompress.cpp
+  moc_crypt.cpp
+  moc_ioapi.cpp
+  moc_quaadler32.cpp
+  moc_quachecksum32.cpp
+  moc_quacrc32.cpp
+  moc_quagzipfile.cpp
+  moc_quaziodevice.cpp
+  moc_quazip.cpp
+  Generating Code...
+  Compiling...
+  moc_quazip_global.cpp
+  moc_quazipdir.cpp
+  moc_quazipfile.cpp
+  moc_quazipfileinfo.cpp
+  moc_quazipnewinfo.cpp
+  moc_unzip.cpp
+  moc_zconf.cpp
+  moc_zip.cpp
+  moc_zlib.cpp
+  Generating Code...
+  unzip.c
+  zip.c
+  Generating Code...
+  quazip.vcxproj -> E:\ZhaoTest\QuazipPRj\build\quazip\Release\quazip_static.lib

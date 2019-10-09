@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\JlCompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\qioapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\quaadler32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\quacrc32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\quagzipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\quaziodevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\quazip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\quazipdir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\quazipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\quazipfileinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\quazipnewinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\unzip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\quazip\zip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_JlCompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_crypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_ioapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quaadler32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quachecksum32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quacrc32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quagzipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quaziodevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quazip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quazip_global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quazipdir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quazipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quazipfileinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_quazipnewinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_unzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_zconf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_zip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ZhaoTest\QuazipPRj\build\quazip\moc_zlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_JlCompress.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_crypt.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_ioapi.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quaadler32.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quachecksum32.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quacrc32.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quagzipfile.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quaziodevice.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quazip.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quazip_global.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quazipdir.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quazipfile.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quazipfileinfo.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_quazipnewinfo.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_unzip.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_zconf.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_zip.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\acca8da6cb55b1c35b621b197673291e\moc_zlib.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\quazip\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{60F24286-D039-31ED-8D92-2FF13F737620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{57F927AD-6183-3C0F-9548-B66D28E1D4C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
