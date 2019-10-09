@@ -1,10 +1,3 @@
-﻿  Moc'ing SourceMaker.h...
-  Moc'ing CustomTextEdit.h...
-  CustomTextEdit.cpp
-  main.cpp
-  SourceMaker.cpp
-  qrc_SourceMaker.cpp
-  moc_SourceMaker.cpp
-  moc_CustomTextEdit.cpp
+﻿  main.cpp
      Creating library E:\MyGit\QuazipPRj\build\x64\Release\SourceMaker.lib and object E:\MyGit\QuazipPRj\build\x64\Release\SourceMaker.exp
   SourceMaker.vcxproj -> E:\MyGit\QuazipPRj\build\x64\Release\SourceMaker.exe

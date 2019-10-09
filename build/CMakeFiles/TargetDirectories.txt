@@ -1,5 +1,5 @@
-E:/ZhaoTest/QuazipPRj/build/CMakeFiles/INSTALL.dir
-E:/ZhaoTest/QuazipPRj/build/CMakeFiles/ALL_BUILD.dir
-E:/ZhaoTest/QuazipPRj/build/CMakeFiles/ZERO_CHECK.dir
-E:/ZhaoTest/QuazipPRj/build/quazip/CMakeFiles/quazip.dir
-E:/ZhaoTest/QuazipPRj/build/quazip/CMakeFiles/INSTALL.dir
+E:/MyGit/QuazipPRj/build/CMakeFiles/INSTALL.dir
+E:/MyGit/QuazipPRj/build/CMakeFiles/ALL_BUILD.dir
+E:/MyGit/QuazipPRj/build/CMakeFiles/ZERO_CHECK.dir
+E:/MyGit/QuazipPRj/build/quazip/CMakeFiles/quazip.dir
+E:/MyGit/QuazipPRj/build/quazip/CMakeFiles/INSTALL.dir

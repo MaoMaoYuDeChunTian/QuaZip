@@ -1,4 +1,4 @@
-# Install script for directory: E:/ZhaoTest/QuazipPRj/quazip
+# Install script for directory: E:/MyGit/QuazipPRj/quazip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,48 +34,48 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/quazip" TYPE FILE FILES
-    "E:/ZhaoTest/QuazipPRj/quazip/JlCompress.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/crypt.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/ioapi.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quaadler32.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quachecksum32.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quacrc32.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quagzipfile.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quaziodevice.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quazip.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quazip_global.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quazipdir.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quazipfile.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quazipfileinfo.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/quazipnewinfo.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/unzip.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/zconf.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/zip.h"
-    "E:/ZhaoTest/QuazipPRj/quazip/zlib.h"
+    "E:/MyGit/QuazipPRj/quazip/JlCompress.h"
+    "E:/MyGit/QuazipPRj/quazip/crypt.h"
+    "E:/MyGit/QuazipPRj/quazip/ioapi.h"
+    "E:/MyGit/QuazipPRj/quazip/quaadler32.h"
+    "E:/MyGit/QuazipPRj/quazip/quachecksum32.h"
+    "E:/MyGit/QuazipPRj/quazip/quacrc32.h"
+    "E:/MyGit/QuazipPRj/quazip/quagzipfile.h"
+    "E:/MyGit/QuazipPRj/quazip/quaziodevice.h"
+    "E:/MyGit/QuazipPRj/quazip/quazip.h"
+    "E:/MyGit/QuazipPRj/quazip/quazip_global.h"
+    "E:/MyGit/QuazipPRj/quazip/quazipdir.h"
+    "E:/MyGit/QuazipPRj/quazip/quazipfile.h"
+    "E:/MyGit/QuazipPRj/quazip/quazipfileinfo.h"
+    "E:/MyGit/QuazipPRj/quazip/quazipnewinfo.h"
+    "E:/MyGit/QuazipPRj/quazip/unzip.h"
+    "E:/MyGit/QuazipPRj/quazip/zconf.h"
+    "E:/MyGit/QuazipPRj/quazip/zip.h"
+    "E:/MyGit/QuazipPRj/quazip/zlib.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/ZhaoTest/QuazipPRj/build/quazip/Debug/quazip.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/MyGit/QuazipPRj/build/quazip/Debug/quazip.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/ZhaoTest/QuazipPRj/build/quazip/Release/quazip.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/MyGit/QuazipPRj/build/quazip/Release/quazip.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/ZhaoTest/QuazipPRj/build/quazip/MinSizeRel/quazip.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/MyGit/QuazipPRj/build/quazip/MinSizeRel/quazip.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/ZhaoTest/QuazipPRj/build/quazip/RelWithDebInfo/quazip.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/MyGit/QuazipPRj/build/quazip/RelWithDebInfo/quazip.lib")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/ZhaoTest/QuazipPRj/build/quazip/Debug/quazip.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/MyGit/QuazipPRj/build/quazip/Debug/quazip.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/ZhaoTest/QuazipPRj/build/quazip/Release/quazip.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/MyGit/QuazipPRj/build/quazip/Release/quazip.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/ZhaoTest/QuazipPRj/build/quazip/MinSizeRel/quazip.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/MyGit/QuazipPRj/build/quazip/MinSizeRel/quazip.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/ZhaoTest/QuazipPRj/build/quazip/RelWithDebInfo/quazip.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/MyGit/QuazipPRj/build/quazip/RelWithDebInfo/quazip.dll")
   endif()
 endif()
 

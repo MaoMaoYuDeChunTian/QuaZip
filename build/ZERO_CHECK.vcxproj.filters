@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\ZhaoTest\QuazipPRj\build\CMakeFiles\7e0c96bb774515adbb9e7bb999673c55\generate.stamp.rule">
+    <CustomBuild Include="E:\MyGit\QuazipPRj\build\CMakeFiles\33ba08fb19f72fa36ec78ceeed25950c\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{60F24286-D039-31ED-8D92-2FF13F737620}</UniqueIdentifier>
+      <UniqueIdentifier>{FE44A8FF-3094-3BC9-BE3B-4158A4740268}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
